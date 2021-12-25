@@ -84,6 +84,7 @@
                                 <option @if(old('tobhi')=='tobhi') selected @endif value="tobhi">Tobhi</option>
                                 <option @if(old('tomf')=='tomf') selected @endif value="tomf">Tomf</option>
                                 <option @if(old('wity')=='wity') selected @endif value="wity">Wity</option>
+                                <option @if(old('arata')=='arata') selected @endif value="arata">Arata</option>
                             </select>
                         </div>
                         @error('kategori')
